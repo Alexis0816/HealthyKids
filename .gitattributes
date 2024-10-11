@@ -1,0 +1,66 @@
+# Trata todos los archivos de texto como archivos de texto con finales de línea automáticos
+* text=auto
+
+# Evita que Git convierta archivos binarios (imágenes, audio, etc.)
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.tga binary
+*.psd binary
+*.mp3 binary
+*.ogg binary
+*.wav binary
+*.fbx binary
+*.dae binary
+*.mp4 binary
+*.mov binary
+*.dll binary
+*.exe binary
+*.zip binary
+*.unitypackage binary
+
+# Archivos de Unity específicos
+*.unity text eol=lf
+*.meta text eol=lf
+*.mat text eol=lf
+*.shader text eol=lf
+*.anim text eol=lf
+*.prefab text eol=lf
+*.controller text eol=lf
+*.cs text eol=lf
+
+# Archivos relacionados con la cache de Unity y compilación
+ExportedObj/* -filter
+*.pidb.meta -filter
+*.pdb.meta -filter
+*.mdb.meta -filter
+
+# Ignorar los archivos temporales y exportaciones
+sysinfo.txt -filter
+*.tmp -filter
+*.pidb -filter
+
+# Configuraciones de desarrollo
+*.sln text
+*.csproj text
+*.user text
+*.userprefs text
+
+# Builds
+*.apk binary
+*.aab binary
+*.unitypackage binary
+*.app binary
+
+# Crashlytics generated file
+crashlytics-build.properties text
+
+# Packed Addressables
+/[Aa]ssets/[Aa]ddressable[Aa]ssets[Dd]ata/*/*.bin* binary
+
+# Temporary auto-generated Android Assets
+/[Aa]ssets/[Ss]treamingAssets/aa.meta text
+/[Aa]ssets/[Ss]treamingAssets/aa/* binary
+
+*.tgz filter=lfs diff=lfs merge=lfs -text
