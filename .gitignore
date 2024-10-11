@@ -55,11 +55,16 @@ ExportedObj/
 # Unity3D generated file on crash reports
 sysinfo.txt
 
-# Builds
+# Excluir compilados de las plataformas
 *.apk
 *.aab
-*.unitypackage
+*.exe
 *.app
+*.ipa
+*.dmg
+
+# Excluir paquetes de Unity
+*.unitypackage
 
 # Crashlytics generated file
 crashlytics-build.properties
