@@ -889,7 +889,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1841564109}
   - component: {fileID: 1841564108}
-  - component: {fileID: 1841564107}
   - component: {fileID: 1841564106}
   - component: {fileID: 1841564105}
   m_Layer: 0
@@ -925,14 +924,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mWorldCenterMode: 2
   mWorldCenter: {fileID: 0}
---- !u!81 &1841564107
-AudioListener:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1841564104}
-  m_Enabled: 1
 --- !u!20 &1841564108
 Camera:
   m_ObjectHideFlags: 0

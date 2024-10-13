@@ -3,7 +3,27 @@ guid: be5219b8679960f4cb6af4e6168cc070
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: SM_Needle_and_bottle_T_Needle_BaseColor.1001
+    second: {fileID: 2800000, guid: d0d8b9556e1cc384fa9389a8b4e00a44, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: SM_Needle_and_bottle_T_Needle_Metallic.1001
+    second: {fileID: 2800000, guid: 1d41d5d20c3da8844b68bd1ec0b08500, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: SM_Needle_and_bottle_T_Needle_Normal.1001
+    second: {fileID: 2800000, guid: c3090fc97def63f46b4d1b7395c8aae8, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: SM_Needle_and_bottle_T_Needle_Roughness.1001
+    second: {fileID: 2800000, guid: aef994635d2960e469ccd23b04ba2f6f, type: 3}
   materials:
     materialImportMode: 2
     materialName: 0

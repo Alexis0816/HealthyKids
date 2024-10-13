@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<QCARInfo>
+    <TargetSet version="36.0" toolVersion="v7.0.8">
+        <ModelTarget name="syringe_v1" targetId="018292a0297a4f8f9bcd5f00a96dec3e" version="14.0" toolVersion="v7.0.8" bbox="-0.023238 -0.007561 -0.122129 0.023253 0.007578 0.122129" trackingMode="car" upVector="0.0 1.0 0.0" optimizeTrackingFor="default" realisticTextures="no" />
+    </TargetSet>
+    <Assembly name="syringe_v1" assemblyId="3e0f2c4d9b5b43f9b93cd66dac710d7e">
+        <Part name="syringe_v1" translation="0 0 0" rotation="AD: 0 0 1 0" />
+        <EntryPoint name="(none)" trained="yes" />
+    </Assembly>
+</QCARInfo>
