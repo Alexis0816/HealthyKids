@@ -4,14 +4,10 @@ using UnityEngine;
 
 public class StopAudioInScene3 : MonoBehaviour
 {
-    void Start()
-    {
-        // Busca el Audio Source persistente
+    void Start() {
         GameObject backgroundMusic = GameObject.FindWithTag("BackgroundMusic");
 
-        if (backgroundMusic != null)
-        {
-            // Pausa el audio
+        if (backgroundMusic != null){ // Pausar el audio temporalmente en la escena 3
             backgroundMusic.GetComponent<AudioSource>().Pause();
         }
     }
